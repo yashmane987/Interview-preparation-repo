@@ -25,23 +25,23 @@ console.log("numer :",i);
 
 
 // ex of callback
-function myfunction(name,callback){
-    console.log("hi", name);
-    callback()
-}
+// function myfunction(name, callback) {
+//     callback()
+//     console.log("hi", name); 
+// }
 
-function by(){
-    console.log("goodby")
-}
+// function by() {
+//     console.log("goodby"); 
+// }
 
-myfunction("yash",by);
+// myfunction("yash", by);
 
 
 
 // spread parameter
 const ar = [1,4,3,2,22,12];
 const ar1=[...ar,24,55];
-console.log(arr1);
+console.log(ar1);
 
 
 
@@ -133,7 +133,7 @@ promise
 // remove element in array
 
 let array1 =[1,3];
-arr.pop(1);
+array1.pop(1);
 console.log(array1);
 
 
