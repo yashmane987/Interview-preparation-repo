@@ -11,9 +11,12 @@ for (let i = 0; i < arr.length - 1; i++) {
 }
 console.log(ans);
 
+
+
 // in JavaScript checks if a value is Not-a-Number
 // it will return  a boolean value
 console.log(isNaN("Yash"));
+
 
 // show this string in alteranate way ydaesvhe
 let str1 = "developer";
@@ -29,6 +32,8 @@ for (let i = 0; i < maxLen; i++) {
 
 console.log(result);
 
+
+
 // diffrence for each and map method
 
 // foreach - not create a new array
@@ -36,6 +41,7 @@ console.log(result);
 
 // map -   create a new array
 //         in map method array are not modified
+
 
 // ex foreach
 const numbers = [1, 2, 3, 4];
@@ -54,6 +60,9 @@ const numb = [1, 2, 3, 4];
 const doubled = numb.map((num) => num * 2);
 
 console.log(doubled);
+
+
+
 
 // pure function:- Always produces the same output for the same input.
 //impure function :- Can produce different outputs for the same input.
@@ -79,6 +88,9 @@ console.log(multiply(5));
 factor = 3;
 console.log(multiply(5));
 
+
+
+
 //What is Annomus function
 
 // anonymous function is a function without a name.
@@ -88,6 +100,9 @@ const greet = function () {
 };
 
 greet();
+
+
+
 
 // What is rest and spread operater
 
@@ -108,6 +123,9 @@ function sum1(...numbers) {
 }
 
 console.log(sum1(1, 2, 3, 4));
+
+
+
 
 // differnce Primitive and non-Primitive
 
