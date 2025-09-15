@@ -59,14 +59,15 @@ console.log(typeof obj);
 
 // closusers
 
-// function innerfunction(){
-//     console.log('inner function')
-//     function outerfunction(){
-//         console.log("outer function execute")
-//     }
-// }
+function greet(name) {
+  return function() {
+    console.log("Hello, " + name);
+  }
+}
 
-// outerfunction()
+const new1 = greet("Yash");
+
+new1();
 
 
 // promise stages - pending,resolve,reject
