@@ -64,8 +64,66 @@ console.log("100" * "20" -30); //1970
 
 
 
+let abc = 100;
+if (function xyz(){}){
+abc = abc - typeof(xyz)  // typeof x is undefined so javascript convert number into undefined so output will be not a number
+
+}
+console.log(abc)
+
+
+function bcd(){
+}
+console.log(typeof(bcd))
 
 
 
+// splice - add , remove and repalace arrray elements, splice methods are mutable
+// slice - method is immutable cannot change .
+
+// let arr2 = [0,1,2,3,4]
+// arr2.splice(2,2)
+// console.log(arr2);
+
+// let arr4 = [1,2,3,4,5];
+// arr4.slice(2,3);
+// console.log(arr4);
 
 
+// let arr5 = [1, 2, 3, 4];
+// console.log(arr5.slice(1, 3));  // 2 3
+// console.log(arr5.splice(1, 3)); // 1
+// console.log(arr5);  
+
+// Slice its a array method ,
+// slice are immutable 
+
+
+
+const a = [3,5,6,8,9]
+let s = a.slice(1,4) //start index 1 and print before index 4
+console.log(s)
+
+
+// splice - ita a array method , it is muttable we can add ,remove and replaceing array
+
+const a1=[2,4,6,7,8];
+ a1.splice(1,2); //start index 1 and remove 1index snd 2 index value
+console.log(a1);
+
+
+
+let obj ={
+    name: "yash",
+    pqr:function(){
+    console.log(this.name)
+    }
+}
+const c = obj.pqr
+obj.pqr();
+c();
+
+
+let arr7= ["yash",'abc']
+let ans = arr7.includes('ABC',-2)
+console.log(ans);
