@@ -23,3 +23,35 @@ console.log(arr1)
 //i and em tag 
 
 // i is italic text and em is Emphasizes text with semantic
+
+
+// what is closures -- its a nested function having two functions inner and outer function inner function can acces the outer function but outer function cannot have acces of inner fun.
+
+
+function myfunction(){
+    let name ="yash"
+
+
+    function second(){
+        let lastname = "mane"
+        console.log("my name is :" ,name,lastname)
+    }
+    second()
+}
+myfunction();
+
+
+// callback function - its a function we can pass argument from one fuctions to another is called callback function
+
+function call(callback){
+callback()
+}
+
+function callby(){
+    console.log("callback is called")
+}
+
+call(callby);
+
+
+
