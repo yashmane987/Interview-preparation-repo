@@ -164,10 +164,12 @@ fun();
 // what is closures - inner function can have the acecess of outer function
 
 function k(){
+    const name ="yash"
     function b(){
     let y =20;
-        console.log(y);
+        console.log(y,name);
     }
+    b()
 }
 k()
 
